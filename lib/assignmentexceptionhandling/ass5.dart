@@ -1,0 +1,15 @@
+main(){
+  try{
+    print(15~/0);
+  }catch(e){
+    print(10~/2);
+  }try{
+    print(14~/2);
+  }catch(e){
+    print("-----------");
+  }try{
+    print(12~/0);
+  }catch(e){
+    print("null");
+  }
+}

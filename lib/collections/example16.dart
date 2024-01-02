@@ -1,0 +1,10 @@
+
+import 'dart:collection';
+
+main (){
+  var accounts=HashMap();
+  accounts['dept']='HR';
+  accounts['name']='Tom';
+  accounts['email']='tom@xyz.com';
+  print('mapp after adding entries:${accounts}');
+}
