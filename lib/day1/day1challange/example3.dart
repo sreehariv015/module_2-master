@@ -7,12 +7,12 @@ class Car {
   Car(this.brand, this.model, this.year, this.isRunning);
 
   startEngine(){
-    isRunning==true;
+    isRunning=true;
       print("The engine is now running");
 
   }
   stopEngine(){
-    isRunning==false;
+    isRunning=false;
       print("The Engine is stopped");
 
   }

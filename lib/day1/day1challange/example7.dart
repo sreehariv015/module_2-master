@@ -12,6 +12,6 @@ class Product{
   }
 }
 main(){
-  Product p =Product("bahhg", 244, 4);
+  Product p =Product("bahhg", 244.1, 4);
   p.sell(3);
 }
